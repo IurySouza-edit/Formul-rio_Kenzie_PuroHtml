@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Kenzie</title>
+</head>
+<body>
+    <h1>
+        <strong> <u> FORMULÁRIO KENZIE </u> </strong>
+    </h1>
+ <header>
+     <form>
+         <label for="nome">Nome</label>
+         <input type="text" name="nome" id="nome" required="true" placeholder="Digite seu nome">
+         <label for="email">Email</label>
+         <input type="text" name="email" id="email" required="true" placeholder="Digite seu email">
+             <label for="seletor">Selecionar Módulo</label>
+         <select name="seleção" id="seletor" required="true">
+            <option value="">
+                Selecione um módulo
+             </option>
+             <option value="Modulo1">
+                Modulo1
+             </option>
+             <option value="Modulo2">
+                Modulo2
+             </option>
+             <option value="Modulo3">
+                Modulo3
+             </option>
+         </select>
+         <label for="senha">Introduza uma senha</label>
+         <input maxlength="14" type="password" name="senha" id="senha" required="true" placeholder="Digite uma senha">
+         <label for="confirmars"></label>
+         <input type="password" name="confirmars" id="confirmars" required="true" placeholder="Confirme sua Senha">
+         <label for="motivo"></label>
+         <textarea placeholder="Porquê a Kenzie deve te aceitar ?" name="motivo" id="motivo" cols="30" rows="5" required="true"></textarea>
+         <label for="notificações">Deseja Receber Notificações da Kenzie?</label>
+         <label for="sim">Sim</label>
+         <input type="radio" name="confirmação" id="sim" value="sim" required="true">
+         <label for="não">Não</label>
+         <input type="radio" name="confirmação" id="não" value="não" required="true">
+         <button type="submit">Enviar</button>
+        </form>
+        
+  </header>
+</body>
+</html>
